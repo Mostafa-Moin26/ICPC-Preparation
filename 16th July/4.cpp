@@ -5,6 +5,7 @@
 
 using namespace std;
 #define ll long long
+
 int main()
 {
     ll n, sum = 0, j = 1, sum1;
@@ -23,6 +24,7 @@ int main()
             sum += sum1;
         }
     }
+    
     cout << sum;
     return 0;
 }
