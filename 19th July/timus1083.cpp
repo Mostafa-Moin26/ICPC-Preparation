@@ -10,10 +10,10 @@ int main()
     cin >> n >> s;
     k = s.size();
 
-    while (n>=1)
+    while (n >= 1)
     {
-        ans*=n;
-        n-=k;
+        ans *= n;
+        n -= k;
     }
     cout << ans;
     return 0;
